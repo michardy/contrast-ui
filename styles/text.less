@@ -1,3 +1,6 @@
+@import "ui-mixins";
+@import "ui-variables";
+
 h1,
 h2,
 h3 {
@@ -30,10 +33,6 @@ code {
   .text(highlight);
   background: @background-color-highlight;
   border-radius: @component-border-radius;
-}
-
-.markdown-preview code {
-  text-shadow: none;
 }
 
 .selected { .text(highlight); }
